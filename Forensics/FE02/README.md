@@ -4,7 +4,7 @@
 > We're sure there's a flag at cfta-fe02.allyourbases.co - can you find it?
 
 ## Approach
-Upon visiting the site, we see "Nothing to see here - try elsewhere?". During the competition, I only got a DNS error when visiting the link. Thus, I used the dig command on terminal which gathers info on DNS. Using `dig cfta-fe02.allyourbases.co txt` which shows the text record, we get this.
+Upon visiting the site, we see "Nothing to see here - try elsewhere?". During the competition, I got a DNS error when visiting the link. Thus, I used the dig command on terminal which gathers info on DNS. Using `dig cfta-fe02.allyourbases.co txt` which shows the text record, we get this.
 ```
 dig cfta-fe02.allyourbases.co txt
 
