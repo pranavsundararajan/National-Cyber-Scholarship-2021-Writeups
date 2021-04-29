@@ -1,1 +1,6 @@
-## BE02 (100 pts)
+# BE02 (100 pts)
+
+## Description
+Download the file and find a way to get the flag
+
+## Approach
