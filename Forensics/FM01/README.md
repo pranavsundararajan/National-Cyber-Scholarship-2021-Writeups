@@ -5,7 +5,8 @@ Download the file and find a way to get the flag.
 
 ## Approach
 We're given an image file so the first thing I do is preliminary checks (strings, exiftool, binwalk), and using `exiftool fm01.jpg` we can get the flag (exiftool output is abridged below since it has lot of extra info). As others have stated, this is assumedly a mistake with the challenge but a flag is a flag.
-```Desktop pranav$ exiftool fm01.jpg
+```
+Desktop pranav$ exiftool fm01.jpg
 ExifTool Version Number         : 12.21
 File Name                       : fm01.jpg
 Directory                       : .
