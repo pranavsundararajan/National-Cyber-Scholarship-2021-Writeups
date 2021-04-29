@@ -2,7 +2,7 @@
 
 ## Description: 
 Download the file and find a way to get the flag.
-
+[be01.zip](be01.zip)
 ## Approach
 The challenge is provided as a pdf in the zip, so the first thing I did was use binwalk to check out what was inside. Using `binwalk chicken.pdf`, here was the output.
 ```console
