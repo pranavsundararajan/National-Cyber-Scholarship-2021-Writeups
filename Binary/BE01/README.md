@@ -18,4 +18,5 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 6478601       0x62DB09        End of Zip archive, footer length: 22
 ```
 Seeing as to the fact that there are zip files within it, I decided to do a matryoshka extraction, which can be done in binwalk using `binwalk -e -M chicken.pdf`. Once that was done in the terminal, I went through the extract folder created until I came to egg.pdf which contained the image with the flag as shown below.
-!(NCL-CTF-Spring-2021-Writeup/Binary/BE01/egg.pdf)
+
+![test](NCL-CTF-Spring-2021-Writeup/Binary/BE01/egg.pdf)
