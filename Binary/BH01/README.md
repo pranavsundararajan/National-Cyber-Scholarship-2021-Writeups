@@ -4,7 +4,7 @@
 Download the file and find a way to get the flag.
 
 ## Approach
-When we run the [program](bh01.zip), we are asked for an input. After some initial fuzzing, we see that depending on the input we get varying lengths of the flag. From this, I assume that this has something to do with the length of the buffer, but decided to do some more fuzzing to see how much of the flag I can get. After a few minutes, I got to this point.
+When we run the [program](bh01.zip), we are asked for an input. After some initial fuzzing, we see that depending on the input we get varying lengths of the flag.  After a few minutes of more fuzzing, I got to this point.
 ```
 ~$ ./program
 What is the magic word?
