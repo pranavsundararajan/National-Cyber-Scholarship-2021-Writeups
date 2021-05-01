@@ -21,3 +21,6 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 Seeing as to the fact that there are zip files within it, I decided to do a matryoshka extraction, which can be done in binwalk using `binwalk -e -M chicken.pdf`. Once that was done in the terminal, I went through the extract folder created until I came to egg.pdf which contained the image with the flag as shown below.
 
 ![flag](BE01_Flag.png)
+
+## Flag
+`wh1ch_came_f1rst?`
