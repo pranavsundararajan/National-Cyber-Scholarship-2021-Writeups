@@ -5,6 +5,9 @@ Download the file and find a way to get the flag.
 
 [fe01.zip](fe01.zip)
 
+### Alternate Approach (TLDR)
+An online outlook file viewer can also be used with some simple searching, but for some reason when I tried to google `ost viewer` nothing came up, so this is the path I took.
+
 ## Approach
 This is an outlook file, so we can use libpff to parse it (https://github.com/libyal/libpff). Here's the command I used as below.
 
@@ -16,7 +19,10 @@ After that, you can grep for flag using a command like `grep -inR "flag" .` or a
 
 Using this odd string in the conversation topic, we can unlock the zip, finally getting the flag.
 
-![]()
+![](flag.jpg)
+
+## Flag
+`pst_i'm_in_here!`
 
 
 
