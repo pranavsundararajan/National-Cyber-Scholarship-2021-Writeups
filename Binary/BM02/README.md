@@ -4,4 +4,4 @@
 Download the file and find a way to get the flag.
 
 ## Approach
-When we run the [file](be02.zip), we get a very basic output with no input asked. Thus, we can dive right into Ghidra 
+When we run the [file](bm02.zip), we get a very basic output with no input asked. Thus, we can dive right into Ghidra.
