@@ -16,10 +16,12 @@ private argument is not set, the private key will not be displayed, even if reco
 n: 22304082644975852743114008695808899287719118009359226182581213403566595839656670815053963599656774184858473201312054532505026757535932368367552515866751304952688361192721984673475384139991343339703058297718180178240939008100002482955267423978148956507166370605992035813498744307130036017491275494370518089644388850785284413492552358793080613280275110944701686910132732081781239770715042010219435107141330923208438588892661274158371830390690056633934039171627447439108435026509588471553930678536862126583867207063222702315747676742797697684348464221215761305755347211413921942012391134432498185676674403999995213184057
 e: 127
 ```
-Looking carefully, I noticed that the modulus (n) for both was actually the same, so we can use a Common Modulus Attack. There are a lot of different ways to do this, but I decided to use this [script](https://blog.0daylabs.com/2015/01/17/rsa-common-modulus-attack-extended-euclidean-algorithm/) as I had issues with others. 
+Looking carefully, I noticed that the modulus (n) for both was actually the same, so we can use a Common Modulus Attack. There are a lot of different ways to do this, but I decided to use this [script](https://github.com/HexPandaa/RSA-Common-Modulus-Attack) as it would handle the base64 decode of the ciphertext for us. Using this command, we can get the flag.
+
 `python3 rsa-cm.py -c1 m1.enc -c2 m2.enc -k1 1.pub -k2 2.pub`
 
-** Flag
+**Flag
+`shaRinGisCaRinG-010`
 
 
 
