@@ -17,4 +17,9 @@ n: 22304082644975852743114008695808899287719118009359226182581213403566595839656
 e: 127
 ```
 Looking carefully, I noticed that the modulus (n) for both was actually the same, so we can use a Common Modulus Attack. There are a lot of different ways to do this, but I decided to use this [script](https://blog.0daylabs.com/2015/01/17/rsa-common-modulus-attack-extended-euclidean-algorithm/) as I had issues with others. 
+`python3 rsa-cm.py -c1 m1.enc -c2 m2.enc -k1 1.pub -k2 2.pub`
+
+** Flag
+
+
 
