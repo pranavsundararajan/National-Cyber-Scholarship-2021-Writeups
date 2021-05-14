@@ -14,4 +14,12 @@ Initially, I decided to just look through some of the directories and see what w
                     <input type="text" id="path" class="c-form-input" name="path" value="/"><br>
                     <input type="submit" id="submit" class="c-btn c-btn--primary c-btn--block" value="Submit" type="button">
 ```
-When we change this to true, we get access to a shell input, albeit critically restricted. 
+When we change this to true, we get access to a shell input, albeit critically restricted since we can't use spaces or do much of anything at all.
+![](shellaccess.jpg)
+
+
+
+
+## Flag
+`bh%3kx9j75%3k2*7!n`
+
