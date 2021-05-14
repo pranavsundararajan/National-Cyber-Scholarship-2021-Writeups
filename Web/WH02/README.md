@@ -9,3 +9,7 @@ Upon visiting the site, nothing stands out, so we can do some fuzzing which incl
 ![](dirb.jpg)
 
 We see a git directory underneath, so we can assume there is an open git index that we can access. There are multiple ways to dump this, but I decided to use this [script](https://github.com/internetwache/GitTools) which worked perfectly with this command.
+```
+pranav@pranav-VirtualBox:~/Desktop/NCLCTF$ ./gitdumper.sh https://cfta-wh02.allyourbases.co/.git/ .
+```
+
