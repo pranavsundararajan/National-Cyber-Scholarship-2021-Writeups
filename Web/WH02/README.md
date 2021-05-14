@@ -16,4 +16,4 @@ pranav@pranav-VirtualBox:~/Desktop/NCLCTF$ ./gitdumper.sh https://cfta-wh02.ally
 Then, we can traverse through the directories or list everything out using `git log -p` to find the flag under setup.sh.
 
 ## Flag
-`
+`giTisAGreat_ResoURCe8337`
