@@ -8,4 +8,4 @@ When we run the [file](bm02.zip), we get a very basic output with no input asked
 
 ![](printFlag.jpg)
 
-All we need to do now is go to the variable and set it to equal 0x539 to override, which we can do in the main function as shown below
+All we need to do now is go to the variable and set it to equal 0x539 to meet the requirements for printflag, which we can do in the main function as shown below.
