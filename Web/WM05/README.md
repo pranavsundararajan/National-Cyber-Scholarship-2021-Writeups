@@ -22,7 +22,7 @@ I found [this](https://www.betterhacker.com/2016/10/command-injection-without-sp
 
 ![](flagoutput.png)
 
-# Alternatives
+### Alternatives
 Of course, there are multiple ways to solve this, for example using the variable ${IFS} as a whitespace or other ways to get around the filtering. You can also use Burpsuite to speed this up a bit, but I chose not to. 
 
 ## Flag
