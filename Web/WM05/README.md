@@ -16,7 +16,7 @@ Initially, I decided to just look through some of the directories and see what w
 ```
 When we change this to true, we get access to a shell input, albeit critically restricted since we can't use spaces or do much of anything at all.
 
-![](shellaccess.png)
+![](shell.png)
 
 I found [this](https://www.betterhacker.com/2016/10/command-injection-without-spaces.html) website that had a neat trick for getting around this, which is using {command,arg}, so for example {ls,-a}. Now, once we run this, we notice some higher directories, so we can run `{ls,-a,...}`, which shows a hidden flag file. However, I couldn't cat it using this same method, so I looked for an alternative, which was using `&&`. We can run `&&cat<.../.flag.txt`, which essentially redirects the location of the file through cat. 
 
